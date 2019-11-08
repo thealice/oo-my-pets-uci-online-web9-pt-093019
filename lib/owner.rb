@@ -53,11 +53,9 @@ class Owner
   def feed_cats
     Cat.all.collect {|cat| cat.mood = "happy"}
   end
-
-  def sell_cats
-
+  def pets
+    pets = dogs + cats
   end
-
   def sell_pets
 
   end
