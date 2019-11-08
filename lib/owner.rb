@@ -21,7 +21,7 @@ class Owner
   end
 
   def self.count
-    @all.count if @all
+    @all.size if @all
   end
 
   def self.reset_all
