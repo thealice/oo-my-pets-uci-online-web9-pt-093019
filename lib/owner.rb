@@ -6,13 +6,13 @@ class Owner
     @name = name
   end
   # def name
-  #   
+  #
   # end
   # def species
   #
   # end
   def say_species
-
+    puts "I am a #{species}"
   end
   #Class methods
   def self.all
