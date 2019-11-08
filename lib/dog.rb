@@ -4,7 +4,7 @@ class Dog
   @@all = []
   def initialize(name, owner_instance)
     @name = name
-    @ownder = owner_instance
+    @owner = owner_instance
     
   end
   def self.all
