@@ -23,7 +23,6 @@ class Owner
 
   def self.count
     @all.size if @all
-    binding.pry
   end
 
   def self.reset_all
