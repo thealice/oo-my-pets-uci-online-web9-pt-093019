@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   attr_reader :name, :species
   @@all = []
@@ -22,6 +23,7 @@ class Owner
 
   def self.count
     @all.size if @all
+    binding.pry
   end
 
   def self.reset_all
