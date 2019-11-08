@@ -1,4 +1,5 @@
 class Owner
+  @@all = []
   def name
 
   end
@@ -10,7 +11,7 @@ class Owner
   end
   #Class methods
   def self.all
-    
+    @@all
   end
   def self.count
 
