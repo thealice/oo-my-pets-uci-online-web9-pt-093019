@@ -3,6 +3,8 @@ class Cat
   attr_accessor :owner, :mood
   @@all = []
   def initialize(name, owner_instance)
+    @name = name
+    
   end
   def self.all
     @@all
