@@ -57,7 +57,7 @@ class Owner
     pets = dogs + cats
   end
   def sell_pets
-    pets.collect {|pet| pet.mood = "nervous"}
+    pets.collect {|pet| pet.mood = "nervous" && pet.owner = nil}
   end
 
   def list_pets
