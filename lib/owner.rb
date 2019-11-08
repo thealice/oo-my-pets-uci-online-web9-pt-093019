@@ -7,9 +7,9 @@ class Owner
   def name
 
   end
-  def species
-
-  end
+  # def species
+  #
+  # end
   def say_species
 
   end
