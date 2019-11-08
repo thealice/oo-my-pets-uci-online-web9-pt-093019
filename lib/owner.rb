@@ -21,7 +21,7 @@ class Owner
   end
 
   def self.count
-    @all.count
+    @all.size
   end
 
   def self.reset_all
@@ -59,7 +59,7 @@ class Owner
   def sell_pets
 
   end
-  
+
   def list_pets
 
   end
