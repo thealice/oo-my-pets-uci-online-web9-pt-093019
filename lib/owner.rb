@@ -41,7 +41,7 @@ class Owner
 
   end
 
-  def buy_dog
+  def buy_dog(dog_instance)
 
   end
 
