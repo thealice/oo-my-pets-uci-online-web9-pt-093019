@@ -5,7 +5,6 @@ class Dog
   def initialize(name, owner_instance, mood="nervous")
     @name = name
     @owner = owner_instance
-    @mood = "nervous"
     
   end
   def self.all
