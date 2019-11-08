@@ -42,7 +42,7 @@ class Owner
     # cat_instance.owner = self
   end
 
-  def buy_dog(dog_instance)
+  def buy_dog(dog_name)
 
   end
 
