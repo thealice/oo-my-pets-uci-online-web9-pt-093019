@@ -16,7 +16,7 @@ class Owner
   def say_species
     "I am a #{self.species}."
   end
-  #Class methods
+
   def self.all
     @@all
   end
@@ -37,7 +37,7 @@ class Owner
     Dog.all.select {|dog| dog.owner == self}
   end
 
-  def buy_cat
+  def buy_cat(cat_instance)
 
   end
 
