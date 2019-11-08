@@ -5,9 +5,9 @@ class Owner
     @species = species
     @name = name
   end
-  def name
-    
-  end
+  # def name
+  #   
+  # end
   # def species
   #
   # end
